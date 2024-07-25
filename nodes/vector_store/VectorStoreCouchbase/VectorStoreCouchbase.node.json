@@ -1,0 +1,21 @@
+{
+	"node": "vectorStoreCouchbase",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+    "categories": ["AI"],
+    "subcategories": {
+        "AI": ["Vector Stores"]
+    },
+    "resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.couchbase.com/server/current/guides/connect.html"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.couchbase.com/"
+			}
+		]
+	}
+}
