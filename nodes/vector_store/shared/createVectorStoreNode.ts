@@ -361,7 +361,7 @@ export const createVectorStoreNode = (args: VectorStoreNodeConstructorArgs) =>
 							ids: [documentId],
 						});
 
-						void logAiEvent(this, 'n8n.ai.vector.store.updated');
+						// void logAiEvent(this, 'n8n.ai.vector.store.updated');
 					} catch (error) {
 						throw error;
 					}

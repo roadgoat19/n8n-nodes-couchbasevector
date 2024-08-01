@@ -22,7 +22,6 @@
   "packageManager": "pnpm@9.1.4",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "build": "tsc && gulp build:icons",
     "dev": "tsc --watch",
     "format": "prettier nodes credentials --write",
@@ -43,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.7",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^8.56.0",
     "eslint-plugin-n8n-nodes-base": "^1.16.1",
@@ -58,6 +58,7 @@
     "@langchain/community": "^0.2.20",
     "@langchain/core": "^0.2.18",
     "couchbase": "^4.4.0",
-    "langchain": "^0.2.10"
+    "langchain": "^0.2.10",
+    "tmp-promise": "^3.0.3"
   }
 }
